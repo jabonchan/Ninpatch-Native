@@ -1,6 +1,6 @@
 #include "windows.h"
 #include <cstdint>
-#include "./lib/lz4.h"
+#include "./lz4/lib/lz4.h"
 
 extern "C" __declspec(dllexport) int LZ4_Compress(
     const uint8_t* src,
