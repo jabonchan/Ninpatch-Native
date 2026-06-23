@@ -137,20 +137,20 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="lib\lz4.h" />
-    <ClInclude Include="lib\lz4file.h" />
-    <ClInclude Include="lib\lz4frame.h" />
-    <ClInclude Include="lib\lz4frame_static.h" />
-    <ClInclude Include="lib\lz4hc.h" />
-    <ClInclude Include="lib\xxhash.h" />
+    <ClInclude Include="lz4\lib\lz4.h" />
+    <ClInclude Include="lz4\lib\lz4file.h" />
+    <ClInclude Include="lz4\lib\lz4frame.h" />
+    <ClInclude Include="lz4\lib\lz4frame_static.h" />
+    <ClInclude Include="lz4\lib\lz4hc.h" />
+    <ClInclude Include="lz4\lib\xxhash.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="dllmain.cpp" />
-    <ClCompile Include="lib\lz4.c" />
-    <ClCompile Include="lib\lz4file.c" />
-    <ClCompile Include="lib\lz4frame.c" />
-    <ClCompile Include="lib\lz4hc.c" />
-    <ClCompile Include="lib\xxhash.c" />
+    <ClCompile Include="lz4\lib\lz4.c" />
+    <ClCompile Include="lz4\lib\lz4file.c" />
+    <ClCompile Include="lz4\lib\lz4frame.c" />
+    <ClCompile Include="lz4\lib\lz4hc.c" />
+    <ClCompile Include="lz4\lib\xxhash.c" />
   </ItemGroup>
   <ItemGroup>
     <None Include="lib\.gitignore" />
@@ -159,6 +159,12 @@
     <None Include="lib\LICENSE" />
     <None Include="lib\Makefile" />
     <None Include="lib\README.md" />
+    <None Include="lz4\lib\.gitignore" />
+    <None Include="lz4\lib\liblz4-dll.rc.in" />
+    <None Include="lz4\lib\liblz4.pc.in" />
+    <None Include="lz4\lib\LICENSE" />
+    <None Include="lz4\lib\Makefile" />
+    <None Include="lz4\lib\README.md" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
